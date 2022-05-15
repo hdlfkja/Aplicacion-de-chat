@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Aplicacion de Chat</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/normalize.css" as="style">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main class="contenedor-flex">
+    <div class="contenedor-bg">
+      <div class="bg"></div>
+    </div>
+    
+    <div class="contenedor">
+
+      <div class="contacto-uno">
+        <div class="contacto__rectangulo"></div>
+        <div class="contacto">
+          <div class="contacto__flex">
+            <p class="contacto__atras" ><</p>
+
+              <img src="./images/avatar.jpg" alt="avatar" class="contacto__imagen">
+              <div>
+                <p class="contacto-info__nombre no-margin">Samuel Green</p>
+                <p class="contacto-info__estado no-margin">Available to Walk</p>
+              </div>
+          </div>
+        <p class="contacto__menu no-margin">...</p>
+      </div>
+      </div> <!-- .contacto -->
+
+
+      <div class="chat">
+
+        <div class="chat-margin">
+          <p class="chat__mensaje">That sounds great. I’d be happy to discuss more.</p>
+          <p class="chat__mensaje">Could you sand over some pictures of your dog. please?</p>
+        </div>
+
+        <div class="chat-derecho">
+          <div class="chat-imagen">
+            <img src="./images/dog-image-1.jpg" alt="imagen de un perro" class="chat-imagen__tamaño">
+            <img src="./images/dog-image-2.jpg" alt="imagen de un perro" class="chat-imagen__tamaño">
+            <img src="./images/dog-image-3.jpg" alt="imagen de un perro" class="chat-imagen__tamaño">
+          </div>
+
+          <p class="chat__mensaje chat__mensaje--color">Here are a few pictures. She’s a happy girl!</p>
+          <p class="chat__mensaje chat__mensaje--color">Can you make it?</p>
+        </div>
+
+        <p class="chat__mensaje">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+        <div class="chat-comprar">
+          <div class="chat-comprar__mensaje">
+            <div class="chat-comprar__flex">
+              <p class="chat-comprar__mesaje--circulo no-margin"></p>
+              <p class="no-margin">30 minute walk</p>
+            </div> <!-- .chat-comprar__flex -->
+            <p class="chat-comprar__mensaje--bold no-margin">$29</p>
+          </div> <!-- .chat-comprar__mensaje -->
+
+          <div class="chat-comprar__mensaje">
+            <div class="chat-comprar__flex">
+              <p class="chat-comprar__mesaje--circulo no-margin"></p>
+              <p class="no-margin">1 hour walk</p>
+            </div> <!-- .chat-comprar__flex -->
+            <p class="chat-comprar__mensaje--bold no-margin">$49</p>
+          </div> <!-- .chat-comprar__mensaje -->
+        </div>
+
+        <div class="enviar">
+          <p class="enviar__texto">Type a message… <span class="enviar__boton">></span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <section class="contenedor-informacion">
+      <div class="informacion">
+      <h1 class="informacion__titulo centrar-texto">Simple booking</h1>
+
+      <p class="informacion__texto centrar-texto">Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and
+        make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+      </p>
+    </div>
+    </section>
+  </main>
+</body>
+
+</html>
